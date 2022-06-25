@@ -18,7 +18,11 @@ Cosmos : 1.8.5
 
 # Installation
 
-Just move the folder into your server.
+Just move the folder ember in your addon folder.
+
+For use a boost you need to rensing him into the Permanent weapons section like : boost_health 
+
+Boost Disponible : boost_health : boost_ammor : boost_ammo : boost_speed
 
 
 
