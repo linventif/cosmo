@@ -2,7 +2,7 @@
 
 Module create by Linventif under Licence Creative Common 
 
-Only work with Cosmos
+Only work with Cosmo
 
 Cosmos on Discord : https://discord.com/invite/anSyACqMbm
 
@@ -10,9 +10,9 @@ Cosmos on Gmod Store : https://www.gmodstore.com/market/view/cosmo-the-all-in-on
 
 
 
-# Cosmos Boost Shop Pack Compatible Version
+# Cosmo Boost Shop Pack Compatible Version
 
-Cosmos : 1.8.5
+Cosmo : 1.8.5
 
 
 
