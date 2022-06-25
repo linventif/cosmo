@@ -7,22 +7,22 @@ local function giveWeapons(ply, weaponClasses, isPermanent)
         local wep = ply:Give(wepClass)
         
         if isPermanent then
-            if v == "boost_health" then
+            if wepClass == "boost_health" then
                 ply:ChatPrint("Active Boost : Health")
                 ply:SetMaxHealth(200)
                 ply:SetHealth(200)
-            elseif v == "boost_armor_50" then
+            elseif wepClass == "boost_armor_50" then
                 ply:ChatPrint("Active Boost : Armor")
                 ply:SetArmor(100)
-            elseif v == "boost_armor_100" then
+            elseif wepClass == "boost_armor_100" then
                 ply:ChatPrint("Active Boost : Armor")
                 ply:SetArmor(100)
-            elseif v == "boost_ammo" then
+            elseif wepClass == "boost_ammo" then
                 ply:ChatPrint("Active Boost : Ammo")
                 for i = 1, 100 do -- higher the number if you don't have all ammo type give
                     ply:SetAmmo(9999, i)
                 end
-            elseif v == "boost_speed" then
+            elseif wepClass == "boost_speed" then
                 ply:SetSlowWalkSpeed(ply:GetSlowWalkSpeed() * 1.2)
                 ply:SetWalkSpeed(ply:GetWalkSpeed() * 1.2)
                 ply:SetRunSpeed(ply:GetRunSpeed() * 1.2)
