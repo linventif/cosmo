@@ -13,7 +13,7 @@ local function giveWeapons(ply, weaponClasses, isPermanent)
                 ply:SetHealth(200)
             elseif wepClass == "boost_armor_50" then
                 ply:ChatPrint("Active Boost : Armor")
-                ply:SetArmor(100)
+                ply:SetArmor(50)
             elseif wepClass == "boost_armor_100" then
                 ply:ChatPrint("Active Boost : Armor")
                 ply:SetArmor(100)
